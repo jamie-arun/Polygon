@@ -63,15 +63,15 @@ Main issues That Tend To Encounter:
 
 * If You Have To Phase Any Sort Of Dificulties Or Errors Feel Free To Approach Me I Will Be More Happy To Help You
 ```
-amarnath759498@gmail.com
+arunjames472@gmail.com
 ```
 
 ## Authors
 
 Contributors names and contact info
 
-Shadow Known As amar
-ex. [@Amar](amarnath759498@gmail.com)
+Shadow Known As Arun
+ex. [@Arun](arunjames472@gmail.com)
 
 
 ## License
