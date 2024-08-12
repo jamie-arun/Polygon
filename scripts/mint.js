@@ -5,12 +5,12 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
-const tokenContractJSON = require("../artifacts/contracts/YellowChikky.sol/YellowChikky.json");
+const tokenContractJSON = require("../artifacts/contracts/AnimalRacoon.sol/AnimalRacoon.json");
 require('dotenv').config()
 
-const tokenAddress = "0x8a6aFFd0c03C2d7c14d02Ad496Ca9fe8Ec2b47BC"; // place your erc20 contract address here
+const tokenAddress = "0xfE977a4c9f6Ef20DbAD829a85912C16c0a7294D2"; // place your erc20 contract address here
 const tokenABI = tokenContractJSON.abi;
-const walletAddress = "0xc0a0c84d598dDE03E42922Ad4f02368BCca867d7"; 
+const walletAddress = "0x3A8096e60391B865Da1d9E11Dc22a8a59492C691"; 
  // place your public address for your wallet here
 
 async function main() {
@@ -20,14 +20,14 @@ async function main() {
     
 
     
-      const depositTx = await token.mint(6);
+      const depositTx = await token.mint(5);
   
       // Wait for the deposit to be confirmed
       await depositTx.wait();
     
   
-    
-    console.log( + await token.balanceOf(walletAddress) + " NFT'S Are Minted successfully");
+    console.log("NFT minted!!!!");
+    console.log("Received : " + await token.balanceOf(walletAddress) + " NFT'S");
 }
   
   // We recommend this pattern to be able to use async/await everywhere
